@@ -4,23 +4,38 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.registration{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
 img {
-    height: 110px;
-    width: 230px;
+    height: 80px;
+    width: 225px;
 
 }
 p{
-    margin: 20px;
+    margin: 15px;
+    color: rgba(0, 0, 0, 0.604);
+    font-size: 15px;
 }
-/* h1{
-    font-size: 35px;
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
-} */
+}
 
 .form-container {
     width: 70%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 .form-row {
@@ -47,10 +62,10 @@ label {
 }
 
 input, select {
-    padding: 18px;
+    padding: 16px;
     font-size: 14px;
     border: 1px solid #84c91d; /* Green border */
-    border-radius: 8px;
+    border-radius: 5px;
     
 }
 
@@ -59,7 +74,7 @@ input::placeholder, select {
 }
 
 input:active {
-   border: #0056b3;
+   border: #0d6db7;
 }
 .tab-menu {
     display: flex;
@@ -69,13 +84,13 @@ input:active {
 }
 
 .tab-menu a {
-    padding: 10px 20px;
+    padding: 7px 12px;
     text-decoration: none;
     color:#007bff;
     /* font-family: Arial, sans-serif; */
     border: 1px solid transparent;
-    margin-right: 5px;
-    border-radius: 4px 4px 0 0;
+    margin-right: 2px;
+    border-radius: 2px;
     border: 1px solid #ddd;
     border-bottom: 2px solid #fff;
     background-color: #f9f9f9;
@@ -97,7 +112,7 @@ input:active {
 
 button {
     padding: 15px 20px;
-    background-color: #007bff;
+    background-color: #0d6db7;
     color: white;
     border: none;
     border-radius: 8px;
@@ -106,5 +121,5 @@ button {
     
 }
 button:hover {
-    background-color: #0056b3;
+    background-color: #0d6db7;
 }
