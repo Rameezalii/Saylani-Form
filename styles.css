@@ -123,3 +123,35 @@ button {
 button:hover {
     background-color: #0d6db7;
 }
+
+
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%; /* Increase width for mobile */
+    }
+
+    .form-row {
+        flex-direction: column; /* Stack form fields vertically */
+        align-items: stretch;
+    }
+
+    .form-group {
+        margin-right: 0; /* Remove margin for better spacing */
+        margin-bottom: 15px;
+    }
+
+    img {
+        height: 60px; /* Reduce logo size for mobile */
+        width: 150px;
+    }
+
+    button {
+        padding: 12px 15px; /* Adjust button padding */
+    }
+
+    .tab-menu a {
+        padding: 5px 10px; /* Adjust tab padding */
+        font-size: 14px;
+    }
+}
