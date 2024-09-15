@@ -1,0 +1,158 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form - SMIT</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+
+        <center>
+            <img src="./saylani.svg" alt="Logo" class="logo">
+            <h1>Registration Form - SMIT</h1>
+            <p>Services - Education - Registration</p>
+            
+            <div class="tab-menu">
+                <a href="index.html" >Registration</a>
+                <a href="downloadId.html">Download ID Card</a>
+                <a href="result.html">Results</a>
+            </div>
+            
+            
+        </center>
+
+
+        <!-- Form Container -->
+        <div class="form-container">
+            <form action="#" method="POST">
+
+                <!-- First row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="country">Select Country</label>
+                        <select id="country" name="country">
+                            <option value="">Select country</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="India">India</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Select City</label>
+                        <select id="city" name="city">
+                            <option value="">Select city</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Islamabad">Islamabad</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Second row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="proficiency">Computer Proficiency</label>
+                        <select id="proficiency" name="proficiency">
+                            <option value="">Select your computer proficiency</option>
+                            <option value="Beginner">Beginner</option>
+                            <option value="Intermediate">Intermediate</option>
+                            <option value="Advanced">Advanced</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Select Course/Event</label>
+                        <select id="course" name="course">
+                            <option value="">Select course or event</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Now starting the additional rows -->
+                <!-- Third row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="father-name">Father Name</label>
+                        <input type="text" id="father-name" name="father-name" placeholder="Father name">
+                    </div>
+                </div>
+
+                <!-- Fourth row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone">
+                    </div>
+                </div>
+
+                <!-- Fifth row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cnic">CNIC</label>
+                        <input type="text" id="cnic" name="cnic" placeholder="CNIC">
+                    </div>
+                    <div class="form-group">
+                        <label for="father-cnic">Father's CNIC (optional)</label>
+                        <input type="text" id="father-cnic" name="father-cnic" placeholder="Father's CNIC (optional)">
+                    </div>
+                </div>
+
+                <!-- Sixth row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Select Gender</label>
+                        <select id="gender" name="gender">
+                            <option value="">Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Seventh row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Address">
+                    </div>
+                </div>
+
+                <!-- Eighth row of inputs -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="qualification">Last Qualification</label>
+                        <input type="text" id="qualification" name="qualification" placeholder="Last qualification">
+                    </div>
+                    <!-- Ninth row of inputs -->
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="laptop">Do you have a laptop?</label>
+                        <input type="text" id="laptop" name="laptop" placeholder="Do you have a laptop?">
+                    </div>
+                </div>
+                    <!-- tenth row of submit button -->
+                    <div class="form-row">
+                        <button type="submit">Submit</button>
+                    </div>
+            
+            </form>
+        </div>
+    <script src="./app.js"></script>
+    </body>
+    </html>
